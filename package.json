@@ -1,0 +1,45 @@
+{
+  "name": "coramob",
+  "version": "0.0.1",
+  "description": "ecommerce for cora atelier",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduardoBilk/coramob.git"
+  },
+  "keywords": [
+    "furniture",
+    "cora",
+    "ecommerce"
+  ],
+  "author": "Eduardo Bilk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EduardoBilk/coramob/issues"
+  },
+  "homepage": "https://github.com/EduardoBilk/coramob#readme",
+  "devDependencies": {
+    "autoprefixer": "^8.6.3",
+    "node-sass": "^4.9.0",
+    "nodemon": "^1.17.5",
+    "parcel-bundler": "^1.9.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.2.0",
+    "md5": "^2.2.1",
+    "moment": "^2.22.2",
+    "mongoose": "^5.1.6",
+    "mongoose-mongodb-errors": "0.0.2",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "slugs": "^0.1.3"
+  }
+}
