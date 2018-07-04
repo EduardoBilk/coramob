@@ -6,7 +6,7 @@
 	"scripts": {
 		"dev": "parcel ./public/index.html",
 		"watch": "nodemon src/app.js --ignore public/",
-		"start": "concurrently \"npm run watch\" \"npm run dev\" --names \"💻,📦\" --prefix name",
+		"start": "concurrently \"npm run watch\" \"npm run dev\" --names \"Node,Parcel\" --prefix name",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
