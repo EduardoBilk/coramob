@@ -2,11 +2,16 @@ import React from 'react';
 
 export default function Login() {
 	return (
-		<p>
-			Login{' '}
-			<span role="img" aria-label="login">
-				🔒🔒🔒{' '}
-			</span>
-		</p>
+		<form action="/login" method="POST">
+			<label htmlFor="email">
+				email
+				<input type="text" name="email" />
+			</label>
+			<label htmlFor="password">
+				password
+				<input type="password" name="password" />
+			</label>
+			<input type="submit" value="login" />
+		</form>
 	);
 }

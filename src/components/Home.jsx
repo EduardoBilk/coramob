@@ -4,6 +4,7 @@ import { Switch, Route } from 'react-router-dom';
 import Store from './Store';
 import About from './About';
 import Login from './Login';
+import Register from './Register';
 import Bag from './Bag';
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
 				<Route exact path="/" component={Store} />
 				<Route exact path="/sobre" component={About} />
 				<Route exact path="/login" component={Login} />
+				<Route exact path="/register" component={Register} />
 				<Route exact path="/sacola" component={Bag} />
 			</Switch>
 		</main>
